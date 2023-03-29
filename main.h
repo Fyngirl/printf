@@ -10,15 +10,15 @@
 #define BUFF_SIZE 1024
 
 /* Flag Modifier Macros */
-#define PLUS 1
-#define SPACE 2
-#define HASH 4
-#define ZERO 8
-#define MINUS 16
+#define F_PLUS 2
+#define F_SPACE 16
+#define F_HASH 8
+#define F_ZERO 4
+#define F_MINUS 1
 
 /*SIZES*/
-#define LONG 1
-#define SHORT 2
+#define S_LONG 2
+#define S_SHORT 1
 /**
  * struct fmt - Struct op
  *
